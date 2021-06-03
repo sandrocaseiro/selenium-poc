@@ -11,7 +11,7 @@ Feature: Busca de CEP
     And a tabela de resultado de CEP será mostrada
 
   Scenario: Buscar CEP via input
-    When eu digito o CEP 01451001 e envio
+    When eu digito o CEP 01001000 e envio
     Then o mostrador de progresso será mostrado
     And a tabela de resultado de CEP será mostrada
 
