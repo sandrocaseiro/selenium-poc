@@ -5,7 +5,7 @@ Feature: Busca de CEP
     Given que estou na tela de CEP
 
   Scenario: Buscar CEP
-    When eu digito o CEP 01451001
+    When eu digito o CEP 01001000
     And eu clico em buscar
     Then o mostrador de progresso será mostrado
     And a tabela de resultado de CEP será mostrada

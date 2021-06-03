@@ -9,7 +9,7 @@ export default function() {
       this.get('/v1/cep/:cep', (_, req) => {
         let cep = req.params.cep;
 
-        if (cep === '01451001')
+        if (cep === '01001000')
           return {
             "errors": [
               {
@@ -19,9 +19,9 @@ export default function() {
               }
             ],
             "data": {
-                "cep": "01451-001",
-                "logradouro": "Avenida Brigadeiro Faria Lima",
-                "bairro": "Jardim Paulistano",
+                "cep": "01001-000",
+                "logradouro": "Praça da Sé",
+                "bairro": "Sé",
                 "cidade": "São Paulo",
                 "uf": "SP"
             },
